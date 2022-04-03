@@ -1,0 +1,10 @@
+This scientific calculator has been designed for both basic usage and scientific calculation. It is functions first (executing from right to left to allow for function nesting), and then follows p.e.m.d.a.s. from left to right.
+
+General
+Advanced operations can be viewed by clicking << and closed by clicking >>
+Opening operators are not recognized, with the exception of functions
+To swap sign (go from positive to negative or vice versa) enter a number and then press the +/- key
+Decimals can only be pressed once per number, but can be used as the opening key press for a number
+Pressing an operator key after an operator was just input will update the operator to the most recently pressed operator key
+Pressing a function key after another function key will nest the most recent function inside of the previous function. The calculation will bubble from in to out.
+Terminal operators will cause all calculations before the operator to be repeated after the operator as well and the total of all calculations will be returned.
